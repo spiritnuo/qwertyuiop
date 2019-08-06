@@ -99,6 +99,7 @@ public class EsTest {
         SearchHits hits = response.getHits();
         for (SearchHit hit : hits) {
             System.out.println(hit.getSourceAsString());
+            System.out.println("jjjjj");
         }
     }
 }
